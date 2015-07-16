@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function ()
+{
+$("#but1").click(function () 
+{
+$("tr:even").hide();
+});
+$("#but2").click(function ()
+{
+$("tr:even").show();
+});
+});
+</script>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>Элементы</th>
+</tr>
+<tr>
+<th>Нечётный элемент</th>
+</tr>
+<tr>
+<th>Чётный элемент</th>
+</tr>
+<tr>
+<th>Нечётный элемент</th>
+</tr>
+<tr>
+<th>Чётный элемент</th>
+</tr>
+<button id = "but1">Убрать четные элементы </button> 
+<button id = "but2">Добавить четные элементы </button> 
+</body> 
+<html>
