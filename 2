@@ -1,0 +1,30 @@
+< !DOCTYPE html> 
+<html> 
+<head> 
+<script src="http://code.jquery.com/jquery-latest.js"> 
+</script> 
+<script>    
+$(document).ready(function () 
+{         
+$("#but1").click(function () 
+{             
+$(".MsoNormal").hide();         
+});         
+$("#but2").click(function () 
+{             
+$(".MsoNormal").show();         
+      });     
+     });
+</script> 
+</head> 
+<body> 
+<h2>This is a heading.</h2> 
+<p>This is paragraph.</p> 
+<p class = "MsoNormal">Нечетный элемент.</p> 
+<p>Четный элемент.</p> 
+<p class = "MsoNormal">Нечетный элемент.</p> 
+<p>Четный элемент.</p> 
+<button id = "but1">Убрать нечетные элементы </button> 
+<button id = "but2">Добавить нечетные элементы </button> 
+</body> 
+</html> 
